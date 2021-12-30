@@ -9,3 +9,5 @@ VIDEO_CARDS="i965 intel iris"
 
 # build
 MAKEOPTS="-j8"
+USE="-gnome -kde -qt4 -qt5 -wayland \
+     acpi bluetooth networkmanager pulseaudio wifi"
