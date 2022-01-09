@@ -3,3 +3,4 @@ media-sound/spotify Spotify
 sys-firmware/intel-microcode intel-ucode
 sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
 www-plugins/chrome-binary-plugins google-chrome
+x11-drivers/nvidia-drivers NVIDIA-r2
