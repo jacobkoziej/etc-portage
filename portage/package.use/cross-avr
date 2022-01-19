@@ -1,0 +1,7 @@
+cross-avr/avr-libc -libraries -selinux
+cross-avr/avr-libc doc multilib
+cross-avr/binutils cxx doc multilib
+cross-avr/gcc -boundschecking -cxx -d -fortran -fortran -gcj -go -gtk -jit
+cross-avr/gcc -libffi -mpx -mudflap -objc -objc++ -objc-gc -openmp -pie
+cross-avr/gcc -sanitize -selinux -ssp -vtv
+cross-avr/gcc doc multilib nopie nossp
