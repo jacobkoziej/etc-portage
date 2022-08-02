@@ -1,4 +1,4 @@
 cross-avr/avr-libc multilib
 cross-avr/binutils multilib
-cross-avr/gcc multilib
+cross-avr/gcc multilib nopie nossp
 cross-avr/gdb multilib

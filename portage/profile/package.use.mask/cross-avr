@@ -1,4 +1,5 @@
 cross-avr/avr-libc -multilib
 cross-avr/binutils -multilib
-cross-avr/gcc -multilib
+cross-avr/gcc -multilib -nopie -nossp
+cross-avr/gcc hardened pie ssp
 cross-avr/gdb -multilib
