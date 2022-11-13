@@ -1,6 +1,6 @@
-# etc
+# etc-portage
 
-This is a personal repository for my configuration files found under `/etc`
+This is a personal repository for my Portage configuration.
 
 Copyright (C) 2021-2022  Jacob Koziej [`<jacobkoziej@gmail.com>`]
 
