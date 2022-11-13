@@ -1,1 +1,2 @@
 sys-devel/gcc doc graphite pch pgo sanitize ssp
+sys-devel/gdb multitarget source-highlight xxhash
