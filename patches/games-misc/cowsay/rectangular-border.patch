@@ -1,0 +1,30 @@
+--- a/cowsay
++++ b/cowsay
+@@ -260,24 +260,20 @@ sub construct_balloon {
+         @border = qw[ ( ) ( ) ( ) ];
+     } elsif (@message < 2) {
+         $thoughts = '\\';
+-        @border = qw[ < > ];
++        @border = qw[ | | ];
+     } else {
+         $thoughts = '\\';
+-        if ($V and $V gt v5.6.0) {              # Thanks, perldelta.
+-            @border = qw[ / \\ \\ / | | ];
+-        } else {
+-            @border = qw[ / \ \ / | | ];        
+-        }
++        @border = qw[ | | | | | | ];
+     }
+     push(@balloon_lines, 
+-        " " . ("_" x $max2) . " \n" ,
++        "+" . ("-" x $max2) . "+\n" ,
+         sprintf($format, $border[0], $message[0], $border[1]),
+         (@message < 2 ? "" : 
+             map { sprintf($format, $border[4], $_, $border[5]) } 
+                 @message[1 .. $#message - 1]),
+         (@message < 2 ? "" : 
+             sprintf($format, $border[2], $message[$#message], $border[3])),
+-        " " . ("-" x $max2) . " \n"
++        "+" . ("-" x $max2) . "+\n"
+     );
+ }
