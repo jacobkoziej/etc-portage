@@ -11,4 +11,4 @@ VIDEO_CARDS="i965 intel nvidia"
 # build
 MAKEOPTS="-j4"
 USE="-bluetooth -gnome -kde -qt4 -qt5 -wayland -wifi \
-     networkmanager pulseaudio"
+     pulseaudio"
