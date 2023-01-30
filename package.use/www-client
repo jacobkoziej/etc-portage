@@ -1,6 +1,0 @@
-www-client/ungoogled-chromium clang convert-dict hangouts official
-www-client/ungoogled-chromium optimize-thinlto optimize-webui partition pgo
-www-client/ungoogled-chromium proprietary-codecs system-ffmpeg system-harfbuzz
-www-client/ungoogled-chromium system-icu system-jsoncpp system-libevent
-www-client/ungoogled-chromium system-libvpx system-openh264 system-openjpeg
-www-client/ungoogled-chromium system-re2 tcmalloc thinlto vdpau widevine
