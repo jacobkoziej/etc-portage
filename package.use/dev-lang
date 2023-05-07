@@ -1,2 +1,2 @@
-dev-lang/python lto pgo
+dev-lang/python lto pgo tk
 dev-lang/rust clippy profiler rust-analyzer rust-src rustfmt system-llvm
