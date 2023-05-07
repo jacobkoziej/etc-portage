@@ -6,5 +6,6 @@ net-im/discord all-rights-reserved
 sys-apps/man-pages-posix freedist
 sys-firmware/intel-microcode intel-ucode
 sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
+www-client/google-chrome google-chrome
 www-plugins/chrome-binary-plugins google-chrome
 x11-drivers/nvidia-drivers NVIDIA-r2
